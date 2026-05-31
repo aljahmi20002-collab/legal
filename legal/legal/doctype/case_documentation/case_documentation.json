@@ -1,0 +1,305 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-27 16:41:29.281838",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tab11",
+  "case_role_selection",
+  "case_documentation",
+  "case_details_section",
+  "case_title",
+  "filing_department",
+  "court_name",
+  "column_break_k0q7m",
+  "case_numberissued_by_court",
+  "assigned_advocate",
+  "priority_level",
+  "column_break_qdlvi",
+  "filing_date",
+  "case_status",
+  "case_type",
+  "section_break_lv1mg",
+  "parties_involved",
+  "section_break_ryl1t",
+  "case_description",
+  "tab22",
+  "column_break_sax26",
+  "related_documents",
+  "section_break_vyhxd",
+  "preview",
+  "approval_section",
+  "initiating_employee",
+  "approval_status",
+  "column_break_ee6ah",
+  "approval_date",
+  "section_break_5fdvw",
+  "approval_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "case_title",
+   "fieldtype": "Data",
+   "label": "Case Title"
+  },
+  {
+   "fieldname": "case_numberissued_by_court",
+   "fieldtype": "Data",
+   "label": "Case Number(issued by court)"
+  },
+  {
+   "fieldname": "case_description",
+   "fieldtype": "Text Editor",
+   "label": "Case Description"
+  },
+  {
+   "fieldname": "parties_involved",
+   "fieldtype": "Table",
+   "label": "Parties Involved",
+   "options": "Litigants"
+  },
+  {
+   "fieldname": "assigned_advocate",
+   "fieldtype": "Link",
+   "label": "Assigned Advocate",
+   "options": "Advocate Master"
+  },
+  {
+   "fieldname": "column_break_sax26",
+   "fieldtype": "Section Break",
+   "label": "Document Preview"
+  },
+  {
+   "fieldname": "filing_department",
+   "fieldtype": "Link",
+   "label": "Filing Department",
+   "options": "Department"
+  },
+  {
+   "fieldname": "filing_date",
+   "fieldtype": "Date",
+   "label": "Filing Date"
+  },
+  {
+   "fieldname": "priority_level",
+   "fieldtype": "Select",
+   "label": "Priority Level",
+   "options": "\nHigh\nMedium\nLow"
+  },
+  {
+   "fieldname": "case_status",
+   "fieldtype": "Select",
+   "label": "Case Status",
+   "options": "\nActive\nClosed\nPending\nDismissed"
+  },
+  {
+   "fieldname": "related_documents",
+   "fieldtype": "Attach",
+   "label": "Related Documents"
+  },
+  {
+   "fieldname": "section_break_lv1mg",
+   "fieldtype": "Section Break",
+   "label": "Litigants"
+  },
+  {
+   "fieldname": "section_break_ryl1t",
+   "fieldtype": "Section Break",
+   "label": "Case Overview"
+  },
+  {
+   "fieldname": "column_break_k0q7m",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_qdlvi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "preview",
+   "fieldtype": "HTML",
+   "label": "Preview"
+  },
+  {
+   "fieldname": "section_break_vyhxd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "case_details_section",
+   "fieldtype": "Section Break",
+   "label": "Case Details"
+  },
+  {
+   "fieldname": "case_documentation",
+   "fieldtype": "HTML",
+   "label": "Case Documentation",
+   "options": "<div style=\"padding: 10px; background-color: #e7f3fe; color: #004085; border: 1px solid #b8daff; border-radius: 4px; margin-bottom: 10px;\">\n   <strong>\u062a\u064f\u0639\u062f\u0651 \u0647\u0630\u0647 \u0627\u0644\u0645\u0631\u062d\u0644\u0629 \u0628\u0645\u062b\u0627\u0628\u0629 \u0627\u0644\u0648\u062d\u062f\u0629 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0644\u0625\u062f\u0627\u0631\u0629 \u0648\u062a\u062a\u0628\u0639 \u062c\u0645\u064a\u0639 \u0627\u0644\u0642\u0636\u0627\u064a\u0627 \u0627\u0644\u062a\u064a \u062a\u062a\u0648\u0644\u0627\u0647\u0627 \u0627\u0644\u0647\u064a\u0626\u0629. \u0641\u0647\u064a \u062a\u064f\u0631\u0643\u0651\u0632 \u0639\u0644\u0649 \u0627\u0644\u062a\u0641\u0627\u0635\u064a\u0644 \u0627\u0644\u0623\u0633\u0627\u0633\u064a\u0629 \u0644\u0643\u0644 \u0642\u0636\u064a\u0629 \u0645\u0646 \u0623\u062c\u0644 \u0627\u0644\u062a\u0646\u0638\u064a\u0645 \u0648\u0627\u0644\u0645\u062a\u0627\u0628\u0639\u0629 \u0645\u0646 \u0627\u0644\u062a\u0633\u062c\u064a\u0644 \u0627\u0644\u0649 \u0627\u0644\u0627\u063a\u0644\u0627\u0642..</strong>\n</div>\n"
+  },
+  {
+   "fieldname": "court_name",
+   "fieldtype": "Link",
+   "label": "Court Name",
+   "options": "Court Master"
+  },
+  {
+   "fieldname": "approval_section",
+   "fieldtype": "Section Break",
+   "label": "Approval"
+  },
+  {
+   "fieldname": "initiating_employee",
+   "fieldtype": "Link",
+   "label": "Initiating Employee",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "approval_status",
+   "fieldtype": "Select",
+   "label": "Approval Status",
+   "options": "\nPending\nApproved\nRejected"
+  },
+  {
+   "fieldname": "column_break_ee6ah",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approval_date",
+   "fieldtype": "Date",
+   "label": "Approval Date"
+  },
+  {
+   "fieldname": "section_break_5fdvw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approval_notes",
+   "fieldtype": "Text Editor",
+   "label": "Approval Notes"
+  },
+  {
+   "fieldname": "case_type",
+   "fieldtype": "Select",
+   "label": "Case Type",
+   "options": "\nCivil\nCompliance\nOthers"
+  },
+  {
+   "fieldname": "case_role_selection",
+   "fieldtype": "Select",
+   "label": "Case Role Selection",
+   "options": "\n\u0631\u0641\u0639 \u062f\u0639\u0648\u0649\n\u0627\u0633\u062a\u062f\u0639\u0627\u0621\n\u0623\u062e\u0631\u0649"
+  },
+  {
+   "fieldname": "tab11",
+   "fieldtype": "Tab Break",
+   "label": "\u062a\u0641\u0627\u0635\u064a\u0644"
+  },
+  {
+   "fieldname": "tab22",
+   "fieldtype": "Tab Break",
+   "label": "\u0645\u0639\u0644\u0648\u0645\u0627\u062a"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [
+  {
+   "link_doctype": "Case Initiation",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Summons Issuance",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Written Statement and Reply",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Preliminary Evidence Criminal",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Evidence Submission",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Hearing Schedule and Court Proceedings",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Judgment and Orders",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Appeals Reviews and Revisions",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Compliance and Implementation",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Case Closure",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Task Management",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Evidence Discovery and Inspection Civil",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Filing of Charge Sheet Criminal",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Re-examination",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "FIR and Investigation Criminal",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Framing of Charges",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Case Arguments",
+   "link_fieldname": "case_title"
+  },
+  {
+   "link_doctype": "Case Closure",
+   "link_fieldname": "case_title"
+  }
+ ],
+ "modified": "2026-05-15 20:06:23.992423",
+ "modified_by": "Administrator",
+ "module": "Legal",
+ "name": "Case Documentation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "case_title"
+}
