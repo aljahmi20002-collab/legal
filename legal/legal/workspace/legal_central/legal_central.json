@@ -1,0 +1,558 @@
+{
+ "app": "legal",
+ "charts": [],
+ "content": "[{\"id\":\"zkQlSSmwUA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">\u0645\u0646\u0635\u0629 \u0625\u0646\u0635\u0627\u0641</span>\",\"col\":12}},{\"id\":\"DWgn1wYllm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Plaint Details\",\"col\":3}},{\"id\":\"PAyPv1xREA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Case Documentation\",\"col\":3}},{\"id\":\"Bf8EmZW4X1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Execution of Decree\",\"col\":3}},{\"id\":\"RfdbBJE5--\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Case Arguments\",\"col\":3}},{\"id\":\"Uk5zrabl7W\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Judgment and Orders\",\"col\":3}},{\"id\":\"8Gw3-JUC-s\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Legal Management Dashboard\",\"col\":3}},{\"id\":\"CffZAne9zA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"k-bGe7ImE9\",\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"id\":\"r84gKKGl3v\",\"type\":\"card\",\"data\":{\"card_name\":\"Evidence Management\",\"col\":4}},{\"id\":\"IAqlYA_j7W\",\"type\":\"card\",\"data\":{\"card_name\":\"Case Management\",\"col\":4}},{\"id\":\"vo9eEh5vWO\",\"type\":\"card\",\"data\":{\"card_name\":\"Plaintiff Managemant\",\"col\":4}},{\"id\":\"r84gKKGl3v\",\"type\":\"card\",\"data\":{\"card_name\":\"Defendant Master\",\"col\":4}},{\"id\":\"CLmoYTPsPU\",\"type\":\"card\",\"data\":{\"card_name\":\"Order Management\",\"col\":4}},{\"id\":\"pGvcbAvNtp\",\"type\":\"card\",\"data\":{\"card_name\":\"Appointments\",\"col\":4}},{\"id\":\"RQvtolJSLV\",\"type\":\"card\",\"data\":{\"card_name\":\"Books and Journals\",\"col\":4}},{\"id\":\"RxQvZZH7ME\",\"type\":\"card\",\"data\":{\"card_name\":\"Setup\",\"col\":4}}]",
+ "creation": "2026-04-25 18:48:10.735473",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 1,
+ "icon": "projects",
+ "idx": 3,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Legal Central",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Evidence Management",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Preliminary Evidence Criminal",
+   "link_count": 0,
+   "link_to": "Preliminary Evidence Criminal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Evidence Submission",
+   "link_count": 0,
+   "link_to": "Evidence Submission",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Evidence Discovery and Inspection Civil",
+   "link_count": 0,
+   "link_to": "Evidence Discovery and Inspection Civil",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Examination-in-Chief",
+   "link_count": 0,
+   "link_to": "Examination-in-Chief",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Case Management",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Case Documentation",
+   "link_count": 0,
+   "link_to": "Case Documentation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Case Initiation",
+   "link_count": 0,
+   "link_to": "Case Initiation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Case Arguments",
+   "link_count": 0,
+   "link_to": "Case Arguments",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Case Closure",
+   "link_count": 0,
+   "link_to": "Case Closure",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Appointments",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Filing of Charge Sheet Criminal",
+   "link_count": 0,
+   "link_to": "Filing of Charge Sheet Criminal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "FIR and Investigation Criminal",
+   "link_count": 0,
+   "link_to": "FIR and Investigation Criminal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Framing of Charges",
+   "link_count": 0,
+   "link_to": "Framing of Charges",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Hearing Schedule and Court Proceedings",
+   "link_count": 0,
+   "link_to": "Hearing Schedule and Court Proceedings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Books and Journals",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plea or Guilty or Trial Criminal",
+   "link_count": 0,
+   "link_to": "Plea or Guilty or Trial Criminal",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Re-examination",
+   "link_count": 0,
+   "link_to": "Re-examination",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff Managemant",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff Master",
+   "link_count": 0,
+   "link_to": "Plaintiff Master",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 1",
+   "link_count": 0,
+   "link_to": "Plaintiff 1",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 2",
+   "link_count": 0,
+   "link_to": "Plaintiff 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 3",
+   "link_count": 0,
+   "link_to": "Plaintiff 3",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 4",
+   "link_count": 0,
+   "link_to": "Plaintiff 4",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 5",
+   "link_count": 0,
+   "link_to": "Plaintiff 5",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaintiff 6",
+   "link_count": 0,
+   "link_to": "Plaintiff 6",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Order Management",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Judge Master",
+   "link_count": 0,
+   "link_to": "Judge Master",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Judgment and Orders",
+   "link_count": 0,
+   "link_to": "Judgment and Orders",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Labour Law Updates",
+   "link_count": 0,
+   "link_to": "Labour Law Updates",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lawyer-Defendant",
+   "link_count": 0,
+   "link_to": "Lawyer-Defendant",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Lawyer-Plaintiff",
+   "link_count": 0,
+   "link_to": "Lawyer-Plaintiff",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Legal Calendar",
+   "link_count": 0,
+   "link_to": "Legal Calendar",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Masters",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Plaint Details",
+   "link_count": 0,
+   "link_to": "Plaint Details",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Legal Precedents",
+   "link_count": 0,
+   "link_to": "Legal Precedents",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Legal Documents Repository",
+   "link_count": 0,
+   "link_to": "Legal Documents Repository",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Setup",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Summons Issuance",
+   "link_count": 0,
+   "link_to": "Summons Issuance",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Task Management",
+   "link_count": 0,
+   "link_to": "Task Management",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Written Statement and Reply",
+   "link_count": 0,
+   "link_to": "Written Statement and Reply",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant Master",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant Master",
+   "link_count": 0,
+   "link_to": "Defendant Master",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 1",
+   "link_count": 0,
+   "link_to": "Defendant 1",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 2",
+   "link_count": 0,
+   "link_to": "Defendant 2",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 3",
+   "link_count": 0,
+   "link_to": "Defendant 3",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 4",
+   "link_count": 0,
+   "link_to": "Defendant 4",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 5",
+   "link_count": 0,
+   "link_to": "Defendant 5",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Defendant 6",
+   "link_count": 0,
+   "link_to": "Defendant 6",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-05-13 17:52:31.130866",
+ "modified_by": "Administrator",
+ "module": "Legal",
+ "name": "Legal Central",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Case Documentation",
+   "link_to": "Case Documentation",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} InProgress",
+   "label": "Case Arguments",
+   "link_to": "Case Arguments",
+   "stats_filter": "{\"status\":[\"=\",\"InProgress\"]}",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Judgment and Orders",
+   "link_to": "Judgment and Orders",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Execution of Decree",
+   "link_to": "Execution of Decree",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Plaint Details",
+   "link_to": "Plaint Details",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Legal Management Dashboard",
+   "link_to": "Legal Management Dashboard",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "Legal Central",
+ "type": "Workspace"
+}
